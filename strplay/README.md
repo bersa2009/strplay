@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🎵 Strplay
 
 YouTube videolarını reklamsız oynatmak ve indirmek için geliştirilmiş Flutter mobil uygulaması. SkipVids köprüsü kullanarak YouTube içeriklerine erişim sağlar.
@@ -166,9 +165,4 @@ Bu proje MIT lisansı altında lisanslanmıştır.
 Sorularınız için issue açabilir veya iletişime geçebilirsiniz.
 
 Not: Bu uygulama eğitim amaçlı geliştirilmiştir. Ticari kullanım için gerekli izinleri alın.
-=======
-## strplay
-
-Lightweight PHP search UI scaffold. Edit `index.php` and plug your database search where noted.
->>>>>>> 467da73df99111ab79a364f14b21106ec4588a9c
 
