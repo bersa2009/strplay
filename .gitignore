@@ -1,0 +1,21 @@
+# Ignore misplaced git internals and secrets
+COMMIT_EDITMSG
+HEAD
+index
+config
+
+# Archives and binaries
+*.zip
+*.tar
+*.gz
+*.bz2
+*.7z
+*.rar
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
+
