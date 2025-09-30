@@ -1,0 +1,58 @@
+name: strplay
+description: YouTube videolarını reklamsız oynatmak ve indirmek için mobil müzik uygulaması
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  
+  # HTTP istekleri için
+  http: ^1.1.0
+  
+  # HTML parsing için
+  html: ^0.15.4
+  
+  # Ses çalma için
+  just_audio: ^0.9.36
+  
+  # WebView için (SkipVids köprüsü)
+  webview_flutter: ^4.4.2
+  
+  # YouTube arama ve stream için
+  youtube_explode_dart: ^1.12.2
+  
+  # Dosya indirme için
+  dio: ^5.3.2
+  
+  # Depolama izinleri için
+  permission_handler: ^11.0.1
+  
+  # Yerel depolama için
+  path_provider: ^2.1.1
+  
+  # UI bileşenleri
+  cupertino_icons: ^1.0.2
+  
+  # Kamera için
+  camera: ^0.10.5+5
+  
+  # Arka plan ses için
+  audio_service: ^0.18.12
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true
